@@ -35,13 +35,3 @@ await new Command()
     }
   })
   .parse(Deno.args);
-
-// await new Command()
-//   .name("rm")
-//   .description("Remove directory.")
-//   .option("-r, --recursive", "Remove directory recursively.")
-//   .arguments("<dir>")
-//   .action(({ recursive }, dir: string) => {
-//     console.log("remove " + dir + (recursive ? " recursively" : ""));
-//   })
-//   .parse(Deno.args);
